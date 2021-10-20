@@ -25,7 +25,7 @@ function createMenuRow(dishName, dishPrice, btn) {
 	if (btn === 'add') {
 		const addBtn = document.createElement('img');
 		addBtn.classList.add('add-btn');
-		addBtn.src = 'https://ibb.co/3kMLxCX';
+		addBtn.src = 'https://i.ibb.co/st6MTVS/add-btn.png';
 		addBtn.alt = 'add dish to busket';
 		priceContainer.append(priceEl, addBtn);
 		addBtn.addEventListener('click', () => {
@@ -40,7 +40,7 @@ function createMenuRow(dishName, dishPrice, btn) {
 	if (btn === 'delete') {
 		const deleteBtn = document.createElement('img');
 		deleteBtn.classList.add('delete-btn');
-		deleteBtn.src = 'https://ibb.co/D9D4PNV';
+		deleteBtn.src = 'https://i.ibb.co/7nJvxHY/delete-btn.png';
 		deleteBtn.alt = 'delete dish from busket';
 		priceContainer.append(priceEl, deleteBtn);
 		deleteComponent(deleteBtn, dishName);

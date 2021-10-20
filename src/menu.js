@@ -70,7 +70,7 @@ const createMenuFavs = () => {
 	const menuContainerImage = document.createElement('div');
 	menuContainerImage.classList.add('menu-container-image');
 	const menuImg = document.createElement('img');
-	menuImg.src = 'https://ibb.co/qCQTrRh';
+	menuImg.src = 'https://i.ibb.co/BGM0Cgv/11.png';
 	menuImg.alt = 'menu img';
 	menuContainerImage.appendChild(menuImg);
 	menuContainer.appendChild(menuContainerImage);

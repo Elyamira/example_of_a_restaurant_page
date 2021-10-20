@@ -6,7 +6,7 @@ const createAboutMainInfoContainer = () => {
 	aboutMainImage.classList.add('about-main-image');
 	aboutMainInfo.appendChild(aboutMainImage);
 	const aboutMainImageEl = document.createElement('img');
-	aboutMainImageEl.src = 'https://ibb.co/gwwGgM0';
+	aboutMainImageEl.src = 'https://i.ibb.co/MppbNDz/7.png';
 	aboutMainImageEl.alt = 'photo of rolls and suchi';
 	aboutMainImage.appendChild(aboutMainImageEl);
 	const aboutTextInfo = document.createElement('div');

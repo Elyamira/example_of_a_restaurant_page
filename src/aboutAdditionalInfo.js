@@ -8,13 +8,16 @@ const createAboutAdditionalInfo = () => {
 	aboutAdditionalInfo.append(h2El, aboutAdditionalInfoItems);
 	aboutAdditionalInfoItems.classList.add('about-additional-info-items');
 	aboutAdditionalInfoItems.appendChild(
-		createItem('https://ibb.co/TmHJJdG', 'Crafted by our master chefs')
+		createItem('https://i.ibb.co/NZLffbq/8.png', 'Crafted by our master chefs')
 	);
 	aboutAdditionalInfoItems.appendChild(
-		createItem('https://ibb.co/vV1gPG1', 'using the finest ingredients')
+		createItem('https://i.ibb.co/341GNq1/9.png', 'using the finest ingredients')
 	);
 	aboutAdditionalInfoItems.appendChild(
-		createItem('https://ibb.co/Xs2JwCS', 'Served with care and passion')
+		createItem(
+			'https://i.ibb.co/2tnKbkg/10.png',
+			'Served with care and passion'
+		)
 	);
 	return aboutAdditionalInfo;
 

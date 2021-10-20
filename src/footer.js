@@ -4,7 +4,7 @@ const createFooter = () => {
 	footerImgContainer.classList.add('footer-img');
 	footerImgContainer.classList.add('mb-medium');
 	const footerImg = document.createElement('img');
-	footerImg.src = 'https://ibb.co/42v0J17';
+	footerImg.src = 'https://i.ibb.co/QkSxXDf/12.png';
 	footerImg.alt = 'photo with sushi and rolls';
 	footerImgContainer.appendChild(footerImg);
 	const footerTextContainer = document.createElement('div');
