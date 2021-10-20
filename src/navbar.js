@@ -44,7 +44,7 @@ const createNavbar = () => {
 	basketContainer.appendChild(basketImg);
 	basketContainer.classList.add('basket-container');
 
-	basketImg.src = 'https://ibb.co/pvwSp0j';
+	basketImg.src = 'https://i.ibb.co/HD4jQFT/basket.png';
 	const circle = document.createElement('div');
 	circle.classList.add('basket-circle');
 	circle.setAttribute('id', 'circle');
