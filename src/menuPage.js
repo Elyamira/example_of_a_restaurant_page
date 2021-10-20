@@ -15,7 +15,7 @@ function createMenuPage() {
 	menuImgContainer.classList.add('menu-img-container');
 	const menuImg = document.createElement('img');
 	menuImg.classList.add('menu-img');
-	menuImg.src = 'https://ibb.co/F7bbyVY';
+	menuImg.src = 'https://i.ibb.co/RHppsy6/menu.png';
 	menuImgContainer.appendChild(menuImg);
 	const menuPageItems = document.createElement('div');
 	menuPage.append(menuImgContainer, menuPageItems);
