@@ -20,7 +20,7 @@ const createHeader = () => {
 
 	const headerMainImage = document.createElement('img');
 	headerMainImage.classList.add('header-main-image');
-	headerMainImage.src = 'https://ibb.co/58dBV53';
+	headerMainImage.src = 'https://i.ibb.co/d2SGyQv/6.png';
 	header.appendChild(headerContainer);
 	header.appendChild(headerMainImage);
 	return header;
